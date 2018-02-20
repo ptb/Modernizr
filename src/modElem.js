@@ -1,18 +1,1 @@
-define(['Modernizr', 'createElement'], function(Modernizr, createElement) {
-  /**
-   * Create our "modernizr" element that we do most feature tests on.
-   *
-   * @access private
-   */
-
-  var modElem = {
-    elem: createElement('modernizr')
-  };
-
-  // Clean up this element
-  Modernizr._q.push(function() {
-    delete modElem.elem;
-  });
-
-  return modElem;
-});
+import a from"./createElement.js";import b from"./Modernizr.js";const c={elem:a("modernizr")};b._q.push(()=>{delete c.elem});export default c

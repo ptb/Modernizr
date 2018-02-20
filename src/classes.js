@@ -1,4 +1,1 @@
-define(function() {
-  var classes = [];
-  return classes;
-});
+export default[]

@@ -1,5 +1,1 @@
-define(['ModernizrProto', 'omPrefixes'], function(ModernizrProto, omPrefixes) {
-  var cssomPrefixes = (ModernizrProto._config.usePrefixes ? omPrefixes.split(' ') : []);
-  ModernizrProto._cssomPrefixes = cssomPrefixes;
-  return cssomPrefixes;
-});
+import a from"./ModernizrProto.js";import b from"./omPrefixes.js";const c=a._config.usePrefixes?b.split(" "):[];a._cssomPrefixes=c;export default c
